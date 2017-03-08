@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Maureen's Blog</title>
+  </head>
+
+  <body>
+    <h1>Maureen's Blog</h1>
+
+    <form method = 'post'>
+      <label>
+        <div>Post title :</div>
+        <input type='text' name='title' value = {{title}}>
+      </label>
+      <label>
+        <div>Post content: </div>
+        <textarea name='content'>{{content}}</textarea><br><br>
+      <input type = submit><br><br>
+      <div class="error">{{error}}</div><hr>
+    </form>
+
+  </body>
+</html>
